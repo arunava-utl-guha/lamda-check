@@ -14,9 +14,9 @@ package:
 
 functions:
   theLambda:
-    name: lambda_checkcd
+    name: lamda-check
     handler: lambda_function.lambda_handler #Python_File_Name.Method_Name
-    description: lambda_checkcd
+    description: lamda-check
     timeout: 5 # seconds
     memorySize: 128 # mb
     package:
