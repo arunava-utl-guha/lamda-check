@@ -29,7 +29,6 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: 'us-east-1'
-          function_name: lambda_checkcd
-          source: lambda.py
-          function_name: lambda_checkcd2
-          source: lambda2.py
+          function_name: lambda_checkcd,lambda_checkcd2
+          source: lambda.py,lambda2.py
+          
