@@ -14,7 +14,7 @@ jobs:
     - name: Deploy code to Lambda
       uses: mariamrf/py-lambda-action@v1.0.0
       with:
-        # lambda_layer_arn: 'arn:aws:lambda:us-east-1:123456789012:layer:lamda-check'
+        lambda_layer_arn: 'arn:aws:lambda:us-east-1:123456789012:layer:lamda-check'
         function_name: 'lambda_checkcd'
         source: lambda.py
       env:
